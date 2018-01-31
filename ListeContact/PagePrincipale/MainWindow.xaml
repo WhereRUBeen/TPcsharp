@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PagePrincipale"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="700" Width="600" Loaded="Onload">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel HorizontalAlignment="Left" Height="60" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="594" Background="Gray"/>
+        <Label Content="Gestion de contacts" HorizontalAlignment="Left" Height="37" FontWeight="Bold" Margin="195,10,0,0" VerticalAlignment="Top" Width="192" FontFamily="Segoe UI" FontSize="20"/>
+        <Grid HorizontalAlignment="Left" Height="54" Margin="0,60,-0.4,0" VerticalAlignment="Top" Width="594">
+            <Button Content="Ajouter" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="34" Margin="29,10,0,0"/>
+            <Button Content="Modifier" HorizontalAlignment="Left" Margin="240,0,0,8" VerticalAlignment="Bottom" Width="102" Height="34"/>
+            <Button Content="Supprimer" HorizontalAlignment="Left" Margin="432,9,0,0" VerticalAlignment="Top" Width="102" Height="35"/>
+        </Grid>
+        <ListView Name="listViewContacts" HorizontalAlignment="Left" Height="541" Margin="0,119,0,0" VerticalAlignment="Top" Width="148" SelectionChanged="listViewContacts_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
     </Grid>
 </Window>

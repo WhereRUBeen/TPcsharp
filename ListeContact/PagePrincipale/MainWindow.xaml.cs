@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ContactManager;
+using Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,27 @@ namespace PagePrincipale
         public MainWindow()
         {
             InitializeComponent();
+          
+     
+        }
+
+        private void listViewContacts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+           
+        }
+
+        private void Onload(object sender, RoutedEventArgs e)
+        {
+            if (listViewContacts != null)
+            {
+                List<Contact> listeContactAfficher = Manager.AfficherContacts();
+              
+                foreach (Contact contact in listeContactAfficher)
+                {
+                    listViewContacts.Items.Add(contact.Nom+" "+contact.Prenom);
+                    
+                }
+            }
         }
     }
 }
