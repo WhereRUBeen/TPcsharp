@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{37C25083-FB3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager", "ContactManager\ContactManager.csproj", "{4C4B19D2-8896-46FD-9E13-880647CA3629}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{400ACC80-D4A4-4303-869B-F357717442CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagePrincipale", "PagePrincipale\PagePrincipale.csproj", "{33531589-AFDC-40BF-82DF-DEEC54284B46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{4C4B19D2-8896-46FD-9E13-880647CA3629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C4B19D2-8896-46FD-9E13-880647CA3629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C4B19D2-8896-46FD-9E13-880647CA3629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33531589-AFDC-40BF-82DF-DEEC54284B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33531589-AFDC-40BF-82DF-DEEC54284B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33531589-AFDC-40BF-82DF-DEEC54284B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33531589-AFDC-40BF-82DF-DEEC54284B46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +55,7 @@ Global
 		{70623538-DF17-4EFB-BE73-3C7E314B98F8} = {D5B2700B-6564-4311-B1A6-50693A2704C1}
 		{4FDC1EFA-E60E-4B23-ADC5-6D89A3DD5FBE} = {9D0E7746-5EC0-409C-A929-44CDAF940D2F}
 		{4C4B19D2-8896-46FD-9E13-880647CA3629} = {37C25083-FB3E-44AA-A91E-37F18607F1B8}
+		{33531589-AFDC-40BF-82DF-DEEC54284B46} = {400ACC80-D4A4-4303-869B-F357717442CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DE6C389-023D-4980-97A6-C2FFC3343ECA}
