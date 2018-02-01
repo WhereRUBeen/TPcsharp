@@ -14,5 +14,10 @@ namespace ContactManager
         {
             return Service.ListeContact();
         }
+
+        public static Contact AfficherContactById(int id)
+        {
+            return Service.GetGetContact(id);
+        }
     }
 }
